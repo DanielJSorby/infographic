@@ -3,7 +3,7 @@
 
     // Initialiserer variabler for å spore siste scroll-posisjon og synligheten til navbar
     let lastScrollTop = 0;
-    let navbarVisible = true;
+    let navbarVisible = $state(true);
 
     // Funksjon for å sjekke brukerens scroll-retning
     const checkScroll = () => {
@@ -49,7 +49,7 @@
     </a>
     <div class="nav-links thin">
         {#each links as link}
-            <a href={link.href} on:click={link.onclick} class="effect-underline">
+            <a href={link.href} class="effect-underline">
                 {link.name}
             </a>
         {/each}
@@ -66,7 +66,7 @@
             <li><a href="/" class="effect-underline">Home</a></li>
             {#each links as link}
                 <li>
-                    <a href={link.href} on:click={link.onclick} class="effect-underline">
+                    <a href={link.href} class="effect-underline">
                         {link.name}
                     </a>
                 </li>
