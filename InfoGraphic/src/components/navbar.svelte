@@ -34,10 +34,9 @@
     });
 
     const links = [
-        {name: 'Chat', href: '/chat'},
-        {name: 'Try Us', href: '/try-us'},
-        {name: 'Prices', href: '/prices'},
-        {name: 'About Us', href: '/about'},
+        {name: 'Hjem', href: '/'},
+        {name: 'Lorem', href: '/lorem'},
+        {name: 'Kilder', href: '/kilder'},
     ];
 
 </script>
