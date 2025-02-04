@@ -4,5 +4,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	color: #e2e2e2;
 	font-family: "lexend deca", sans-serif;
+}
+
+body {
+	background-color: #242424;
+	color: #e2e2e2;
 }

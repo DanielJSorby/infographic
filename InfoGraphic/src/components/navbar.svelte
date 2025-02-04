@@ -138,7 +138,6 @@
     .nav-links a:hover {
         color: #BB86FC;
         scale: 1.1;
-        letter-spacing: 1px;
     }
 
     .navbar.hide {
