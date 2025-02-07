@@ -5,14 +5,14 @@
 <div class="splash">
     {#if direction === "left"}
         <div class="quote" data-aos="fade-right" data-aos-duration="500">
-            <q><span class="quote">{quote}</span></q>
+            <q><span class="quote">{@html quote}</span></q>
             <p> - {author}, {year} </p>
         </div>
         <img src="{image}" alt="{alt}" class="info" data-aos="zoom-in" data-aos-duration="500">
     {:else}
         <img src="{image}" alt="{alt}" class="info" data-aos="zoom-in" data-aos-duration="500">
         <div class="quote" data-aos="fade-left" data-aos-duration="500">
-            <q><span class="quote">{quote}</span></q>
+            <q><span class="quote">{@html quote}</span></q>
             <p> - {author}, {year} </p>
         </div>
     {/if}
@@ -27,7 +27,7 @@
         align-items: center;
     }
     q {
-        font-size: 128px;
+        font-size: 80px;
         font-weight: 700;
         color: #BB86FC;
     }
