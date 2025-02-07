@@ -8,14 +8,14 @@
 
 <div class="textBox">
     {#if direction === "left"}
-        <div class="text">
+        <div class="text" data-aos="fade-right" data-aos-duration="500">
             <h1>{header}</h1>
             <p>{text}</p>
         </div>
-        <img src="{image}" alt="{alt}">
+        <img src="{image}" alt="{alt}" data-aos="zoom-in" data-aos-duration="500">
     {:else}
-        <img src="{image}" alt="{alt}">
-        <div class="text">
+        <img src="{image}" alt="{alt}" data-aos="zoom-in" data-aos-duration="500">
+        <div class="text" data-aos="fade-left" data-aos-duration="500">
             <h1>{header}</h1>
             <p>{text}</p>
         </div>

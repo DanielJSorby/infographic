@@ -12,3 +12,17 @@ body {
 	background-color: #242424;
 	color: #e2e2e2;
 }
+
+.button {
+	background-color: #bb86fc;
+	border: none;
+	color: white;
+	padding: 12px 24px;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+.button:hover {
+	background-color: #c392ff;
+}
